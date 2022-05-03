@@ -13,21 +13,23 @@
 2. 设置Secrets
    
     从Github中进入刚刚fork到你的个人账号下的本项目，依次点击上栏 【Setting】->【Security】->【Secrets】->【Actions】
-
-​    点击【New repository secrets】 按钮新建：
+    
+    点击【New repository secrets】 按钮新建：
 
 * USERNAME：中南大学学工号
 
 * PASSWORD：信息门户密码
 
 
-1. 启动定时打卡
+3. 启动定时打卡
 
     点击上栏【Actions】。选中 workflow ，点击【Run workflow】按钮。
 
-2. 查看运行情况
+4. 查看运行情况
 
-    打开Actions页面，此时在workflows中应该出现了正在运行的工作流。当手动运行时会马上进行一次打卡，以后将会默认在每天的00:025左右进行打卡（Github Action定时任务会有20分钟左右的延时）
+    打开Actions页面，此时在workflows中应该出现了正在运行的工作流。
+    
+    当手动运行时会马上进行一次打卡，以后将会默认在每天的00:25左右进行打卡（Github Action定时任务会有20分钟左右的延时）
 
 
 
