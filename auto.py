@@ -141,7 +141,8 @@ def main(username, password):
     if res['e'] == 0:
         print('填报完成')
     else:
-        raise Exception(res['m'])
+        print(res['m'])
+        # raise Exception(res['m'])
 
 
 if __name__ == "__main__":
